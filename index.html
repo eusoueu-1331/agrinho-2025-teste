@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-widht, initial-scale=1.0, maximum-scale=1">
+  <title>Agrinho eu te odeio</title>
+  <meta name="description" content="Descubra como odiar mais ainda o agrinho">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">Agrinho</div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link">Início</a>
+        <a href="#about" class="nav-link">Sobre nós</a>
+        <a href="#comparar" class="nav-link">Comparar</a>
+        <a href="#galeria" class="nav-link">Galeria</a>
+        <a href="#loja" class="nav-link">Loja</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero-section">
+    <div class="hero-background"></div>
+    <div class="hero-conteudo">
+      <h1 class="hero-titulo">Conexão
+        <span class="hero-subtitulo">Campo & Cidade</span>
+      </h1>
+      <p class="hero-paragrafo">Aqui você encontra tudo o que precisa para o seu campo.</p>
+      <div class="hero-botao">
+        <button class="btn-hero">
+          Campo
+        </button>
+        <button class="btn-hero">
+          Cidade
+        </button>
+      </div>
+    </div>
+  </section>
+  <section id="sobre" class="sobre-section">
+    <div class="container">
+      <div class="cabeçalho-section">
+        <h2>Sobre o Projeto</h2>
+        <p>Somos uma empresa que busca conectar o campo com a cidade.</p>
+      </div>
+      <div class="sobre-conteudo">
+        <div class="card-sobre">
+          <div class="sobre-icon"><i class="fas fa-leaf"></i></div>
+          <h3>Vida rural</h3>
+          <p>Conectando o campo com a cidade.</p>
+        </div>
+        <div class="card-sobre">
+          <div class="sobre-icon""><i class=" fas fa-heart"></i></div>
+          <h3>Conexão</h3>
+          <p>Conectando o campo com a cidade.</p>
+        </div>
+        <div class="card-sobre">
+          <div class="sobre-icon"><i class="fas fa-recycle"></i></div>
+          <h3>Sustentabilidade</h3>
+          <p>Conectando o campo com a cidade.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="comparar" class="comparar-section">
+    <div class="container">
+      <div class="cabeçalho-section">
+        <h2>Campo x Cidade</h2>
+        <p>Explore as caracteristicas unicas de cada ambiente.</p>
+      </div>
+      <div class="comparar-conteudo">
+        <div class="card-comparar rural">
+          <div class="comparar-cabeçalho campo">
+            <i class="fas fa-tree"></i>
+            <h3>Campo</h3>
+          </div>
+          <ul class="comparar-lista campo">
+            <li><i class="fas fa-check"></i>Conexão com a natureza</li>
+            <li><i class="fas fa-check"></i>Ritmo de vida mais calmo</li>
+            <li><i class="fas fa-check"></i>Comunidade unida</li>
+            <li><i class="fas fa-check"></i>Ar puro e espaço aberto</li>
+            <li><i class="fas fa-check"></i>Tradições preservadas</li>
+          </ul>
+        </div>
+        <div class="card-comparar urbano">
+          <div class="comparar-cabeçalho cidade">
+            <i class="fa fa-city"></i>
+            <h3>Cidade</h3>
+          </div>
+          <ul class="comparar-lista cidade">
+            <li><i class="fas fa-check"></i>Oportunidades diversas</li>
+            <li><i class="fas fa-check"></i>Insfraestrutura avançada</li>
+            <li><i class="fas fa-check"></i>Diversidade cultural</li>
+            <li><i class="fas fa-check"></i>Acesso à tecnologia</li>
+            <li><i class="fas fa-check"></i>Convivências modernas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="mercado" class="mercado-section">
+    <div class="container">
+      <div class="cabeçalho-section">
+        <h2>Mercado do Campo</h2>
+        <p>Compre produtos frescos direto do campo</di>
+      </div>
+      <div class="mercado-conteudo">
+        <div class="produto-card">
+          <img src="img/tomate.jfif" alt="Tomates orgânicos">
+          <div class="info-produto">
+            <h4>Tomates Orgânios</h4>
+            <p class="preço">R$ 8,00/Kg</p>
+            <p class="produtor">Fazenda do Seu Zé</p>
+            <button class="btn-comprar" onclick="addtocart(1)">Comprar</button>
+          </div>
+        </div>
+        <div class="produto-card">
+          <img src="img/alface.jfif" alt="Alface fresca">
+          <div class="info-produto">
+            <h4>Alface Fresca</h4>
+            <p class="preço">R$ 4,00/unidade</p>
+            <p class="produtor">Sítio Balacubaco</p>
+            <button class="btn-comprar" onclick="addtocart(2)">Comprar</button>
+          </div>
+        </div>
+        <div class="produto-card">
+          <img src="img/cenoura.jpeg" alt="Cenoura orgânica">
+          <div class="info-produto">
+            <h4>Cenoura Orgânica</h4>
+            <p class="preço">R$ 6,00/Kg</p>
+            <p class="produtor">Fazenda Chumerei</p>
+            <button class="btn-comprar" onclick="addtocart(3)">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="depoimentos-section" class="depoimentos-section">
+    <div class="container">
+      <div class="cabeçalho-section">
+        <h2>Depoimentos</h2>
+        <p>Veja o que nossos clientes dizem sobre nós</p>
+      </div>
+      <div class="depoimentos-conteudo">
+        <div class="depoimento-card">
+          <p>"A melhor experiência de compra que já tive!"</p>
+          <div class="produtor">
+            <img src="img/rosa.jfif" alt="João Silva">
+            <h4>Rosa Maria</p>
+              <p class="cargo">Agricultora</p>
+          </div>
+        </div>
+        <div class="depoimento-card">
+          <p>"A melhor experiência de compra que já tive!"</p>
+          <div class="produtor">
+            <img src="img/joao.jpeg" alt="João Silva">
+            <h4>João Silva</p>
+              <p class="cargo">Agricultor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contato" class="contato-section">
+    <div class="container">
+      <div class="cabeçalho-section">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco</p>
+      </div>
+    </div>
+    <div class="contato-conteudo">
+      <div class="contato-info">
+        <div class="contato-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h4>E-mail</h4>
+            <p>exemplo@contato.com</p>
+          </div>
+        </div>
+        <div class="contato-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h4>Telefone</h4>
+            <p>(11) 99999-9999</p>
+          </div>
+        </div>
+        <div class="contato-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h4>Endereço</h4>
+            <p>Rua Exemplo, 123 - Bairro Exemplo - Cidade/Estado</p>
+          </div>
+        </div>
+      </div>
+      <form class="contato-form" onsubmit="submitForm(event)">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Conexão Campo Cidade</h3>
+        <p>Conectando o campo com a cidade.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#sobre">Sobre nós</a></li>
+          <li><a href="#comparar">Comparar</a></li>
+          <li><a href="#mercado">Mercado</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Redes Sociais</h3>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+      </div>
+    </div>
+    <p>&copy; 2025 Agrinho. Todos os direitos reservados.</p>
+  </footer>
+
+  <div class="carrinho" id=" carrinho" onclick="toggleCarrinho()">
+    <i class="fas fa-shopping-cart"></i>
+    <span class="carrinho-count" id="carrinho-count">0</span>
+  </div>
+
+  <div class="cart-window" id="cart-window">
+    <div class="cart-content">
+      <div class="cart-header">
+        <h3>Carrinho de Compras</h3>
+        <button class="close-cart" onclick="toggleCarrinho()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="cart-items" id="cart-items">
+        <p class="empty-cart">Seu carrinho está vazio</p>
+      </div>
+      <div class="cart-footer">
+        <div class="total-price">
+          <strong>Total: R$ <span id="cart-total">0.00</span>
+          </strong>
+        </div>
+        <button class="checkout-btn" onclick="checkout()">Finalizar Compra</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
