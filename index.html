@@ -4,10 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-widht, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Victor Leonardo">
+  
   <title>Agrinho eu te odeio</title>
+
+  <meta name="keywords" content="Agrinho, Agrinho-2025, campo, cidade">
   <meta name="description" content="Descubra como odiar mais ainda o agrinho">
+
+  <meta property="og:title" content="Agrinho 2025">
+  <meta property="og:description" content="Conexão campo e cidade">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://agrinho2025.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="img/farm.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -113,11 +124,13 @@
       </div>
       <div class="mercado-conteudo">
         <div class="produto-card">
-          <img src="img/tomate.jfif" alt="Tomates orgânicos">
+          <img src="img/tomate.jfif" alt="Tomates orgânicos" >
           <div class="info-produto">
             <h4>Tomates Orgânios</h4>
             <p class="preço">R$ 8,00/Kg</p>
             <p class="produtor">Fazenda do Seu Zé</p>
+          </div>
+          <div class="btn-comprar-container">
             <button class="btn-comprar" onclick="addtocart(1)">Comprar</button>
           </div>
         </div>
@@ -125,19 +138,23 @@
           <img src="img/alface.jfif" alt="Alface fresca">
           <div class="info-produto">
             <h4>Alface Fresca</h4>
-            <p class="preço">R$ 4,00/unidade</p>
-            <p class="produtor">Sítio Balacubaco</p>
+              <p class="preço">R$ 4,00/unidade</p>
+              <p class="produtor">Sítio Balacubaco</p>
+          </div>
+          <div class="btn-comprar-container">
             <button class="btn-comprar" onclick="addtocart(2)">Comprar</button>
           </div>
         </div>
         <div class="produto-card">
           <img src="img/cenoura.jpeg" alt="Cenoura orgânica">
-          <div class="info-produto">
-            <h4>Cenoura Orgânica</h4>
-            <p class="preço">R$ 6,00/Kg</p>
-            <p class="produtor">Fazenda Chumerei</p>
-            <button class="btn-comprar" onclick="addtocart(3)">Comprar</button>
-          </div>
+            <div class="info-produto">
+              <h4>Cenoura Orgânica</h4>
+                <p class="preço">R$ 6,00/Kg</p>
+                <p class="produtor">Fazenda Chumerei</p>
+              </div>
+            <div class="btn-comprar-container">
+              <button class="btn-comprar" onclick="addtocart(3)">Comprar</button>
+            </div>
         </div>
       </div>
     </div>
@@ -240,7 +257,7 @@
     <p>&copy; 2025 Agrinho. Todos os direitos reservados.</p>
   </footer>
 
-  <div class="carrinho" id=" carrinho" onclick="toggleCarrinho()">
+  <div class="carrinho" id="carrinho" onclick="toggleCarrinho()">
     <i class="fas fa-shopping-cart"></i>
     <span class="carrinho-count" id="carrinho-count">0</span>
   </div>
