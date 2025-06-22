@@ -7,35 +7,33 @@ O site simula uma plataforma onde os produtores do campo podem divulgar seus pro
 
 🚀 Funcionalidades do Site
 
-Página inicial com informações sobre o projeto e a importância da integração campo-cidade.
+- Página inicial com informações sobre o projeto e a importância da integração campo-cidade.
 
-Galeria de produtos do campo, com descrição e imagens.
+- Galeria de produtos do campo, com descrição e imagens.
 
-Formulário de contato para simular pedidos ou solicitações.
+- Formulário de contato para simular pedidos ou solicitações.
 
-Seção de mapa com pontos de entrega simulados.
+- Design responsivo ou com efeitos de interação (hover).
 
-Design responsivo ou com efeitos de interação (hover).
+- Estilo personalizado utilizando classes, IDs, variáveis CSS e pseudo-classes.
 
-Estilo personalizado utilizando classes, IDs, variáveis CSS e pseudo-classes.
+🛠️ Tecnologias Utilizadas  
+- HTML5 – Estruturação do conteúdo.
 
-🛠️ Tecnologias Utilizadas
-HTML5 – Estruturação do conteúdo.
+- CSS3 – Estilização, cores, tamanhos, posicionamento, variáveis e responsividade.
 
-CSS3 – Estilização, cores, tamanhos, posicionamento, variáveis e responsividade.
+- JavaScript - Funcionalidades
 
-Recursos de acessibilidade e interação: botões, links, inputs, labels e select.
+📍 Objetivos do Projeto  
+- Sensibilizar sobre a importância da agricultura familiar.
 
-📍 Objetivos do Projeto
-Sensibilizar sobre a importância da agricultura familiar.
+- Demonstrar como a tecnologia pode ser uma ponte entre campo e cidade.
 
-Demonstrar como a tecnologia pode ser uma ponte entre campo e cidade.
+- Valorizar a produção local, sustentável e de qualidade.
 
-Valorizar a produção local, sustentável e de qualidade.
+- Desenvolver habilidades em programação web, aplicando HTML e CSS na prática.
 
-Desenvolver habilidades em programação web, aplicando HTML e CSS na prática.
-
-📸 Créditos das Imagens e Conteúdos
+📸 Créditos das Imagens e Conteúdos  
 Todos os textos são autorais e desenvolvidos para este projeto.
 
-As imagens utilizadas foram produzidas por mim, utilizando ferramentas como Paint, celular ou criadores de imagens livres.
+As imagens utilizadas foram encontradas em mecanismos de busca como o Google, todas com liçença Creative Comons.
