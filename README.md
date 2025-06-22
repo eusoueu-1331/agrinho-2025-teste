@@ -1,5 +1,6 @@
 # 🌱 Conecta Rural – Festejando a Integração Campo-Cidade #
 📄 Descrição do Projeto.
+
 Este site foi desenvolvido com o objetivo de promover a integração entre o campo e a cidade, valorizando a agricultura familiar, os pequenos produtores e a conexão direta com os consumidores urbanos. Por meio deste projeto, buscamos conscientizar sobre a importância do consumo de alimentos locais, saudáveis e produzidos de forma sustentável.
 
 O site simula uma plataforma onde os produtores do campo podem divulgar seus produtos e os moradores da cidade podem conhecer, valorizar e adquirir esses alimentos, fortalecendo os laços entre campo e cidade.
