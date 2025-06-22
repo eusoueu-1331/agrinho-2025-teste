@@ -107,7 +107,7 @@ body {
 
 .hero-subtitulo {
   display: block;
-  color: var(--texto-escuro);
+  color: #fbbf24;
   font-size: 1.5rem;
   margin-top: 0.5rem;
 }
